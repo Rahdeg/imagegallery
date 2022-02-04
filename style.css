@@ -1,41 +1,45 @@
-h1 {
-  font-family: helvetica, arial, sans-serif;
+body{
+  background: aqua;
+  margin: 0 auto;
+  width: 640px;
+}
+
+h1{
+
   text-align: center;
 }
 
-body {
-  width: 640px;
-  margin: 0 auto;
-}
-
-.full-img {
+.midcon{
   position: relative;
   display: block;
   width: 640px;
   height: 480px;
 }
 
-.overlay {
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
   width: 640px;
   height: 480px;
   background-color: rgba(0,0,0,0);
+ 
 }
 
 button {
   border: 0;
-  background: rgba(150,150,150,0.6);
+  background: cornflowerblue;
   text-shadow: 1px 1px 1px white;
-  border: 1px solid #999;
+  border: 5px solid cornflowerblue;
+  border-radius: 2px;
   position: absolute;
   cursor: pointer;
   top: 2px;
   left: 2px;
+  
 }
 
-.thumb-bar img {
+.midpix img{
   display: block;
   width: 20%;
   float: left;
